@@ -1,0 +1,63 @@
+.controls .darkStyle, .controlsContainer .darkStyle {
+    background-color: #333333;
+    cursor: pointer;
+    border: 1px solid #AAA;
+    color: #ffffff;
+    margin: 5px 5px 0 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-appearance: button;
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-user-select: none;
+}
+
+select {
+    padding-left: 15px;
+}
+
+.kalturaClearPlayer {
+    position:relative;margin-bottom:10px
+}
+
+.kal-group {
+    position: relative;
+    display: inline-block;
+    background-color: #000000;
+    margin: 10px 10px;
+}
+
+.kal-group .dummy-std {
+    margin-top: 80%;
+
+}
+
+.kal-group .dummy {
+    margin-top: 63%;
+
+}
+
+.kal-group .player {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.controls {
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    bottom: -50px;
+    position: absolute;
+}
+
+.controls .playerToggler {
+    font-size: 12px;
+}
+select {
+  display: none;
+}

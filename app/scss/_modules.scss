@@ -1,0 +1,323 @@
+#episode1__grid {
+    @include gridElement ($episode1C);
+
+}
+
+#episode1{
+    @include header ($episode1C);
+}
+#episode2__grid {
+    @include gridElement ($episode2C);
+
+}
+
+#episode2{
+    @include header ($episode2C);
+}
+#episode3__grid {
+    @include gridElement ($episode3C);
+
+}
+
+#episode3{
+    @include header ($episode3C);
+}
+#home{
+    @include header (#232323);
+    body {
+      height: 100%;
+      background:#282828; /* fallback for old browsers */
+      background-image: url("/images/bg_index.jpg");
+      background-size: cover;
+    }
+}
+
+.vidLinks {
+  margin: 0 0.5em;
+	color: white!important;
+  opacity: 0.4;
+  font-size: 1.1rem;
+  -webkit-transition: opacity 0.35s;
+ transition: opacity 0.35s;
+  &:hover {
+    color: white!important;
+    opacity:1;
+  }
+
+
+}
+
+/* item is invisible, but used for layout */
+
+.hidePlayer {
+//opacity: 0.0;
+}
+
+
+/* item-content is visible, and transitions size */
+
+/*SEEK BAR*/
+
+.seekBar {
+span {
+  color: white;
+  font-weight: 300;
+  font-family: $lato;
+  font-size: .7rem;
+  z-index: 5000;
+  padding: 0 15px;
+  position: relative;
+  line-height: $seekBarH;
+  height: $seekBarH;
+
+}
+.totalTime {
+  float: right;
+}
+.currentTime {
+  float: left;
+}
+
+}
+
+
+.progressBar
+{
+    position: relative;
+    width: 100%;
+    height: $seekBarH;
+    background-color:$md-blue-grey-800 ;
+}
+.timeBar
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: $seekBarH;
+    background-color: $md-blue-grey-400;
+}
+/* both item and item content change size */
+
+
+
+//videoTimeUpdateHandler
+
+.kal-group {
+  height: 0px;
+  opacity:1;
+  @include transition-property(all);
+  @include transition-duration (.5s);
+}
+
+.kal-group__on {
+  opacity: 1;
+  height: 350px;
+}
+
+
+
+//common grid elements
+
+.grid-item.is-expanded,
+.grid-item.is-expanded .grid-item-content {
+  width: 100%;
+  min-height: 400px;
+}
+
+.grid-item,
+.grid-item-content {
+//  width: $itemWidth;
+  height:$itemWidth;
+}
+
+.grid-item-content {
+  color :$darkblue;
+//  width: $itemWidth;
+  height: $itemWidth;
+  text-align: center;
+  width: auto;
+display: block;
+   -webkit-transition: width 0.4s, height 0.4s;
+  -moz-transition: width 0.4s, height 0.4s;
+      -o-transition: width 0.4s, height 0.4s;
+    transition: width 0.4s, height 0.4s;
+  img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+}
+
+.grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.grid figure h2 span {
+	font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+.clickFigure {
+  width:4rem;
+  height:4rem;
+  margin: 0 auto;
+  background-image: url("../images/play_pause.png");
+  background-repeat: no-repeat;
+  background-position:bottom;
+  -webkit-transition:background-position .1s ease-in;
+   -moz-transition:background-position .1s ease-in;
+   transition:background-position .1s ease-in;
+   cursor: pointer;
+   background-color: rgba(0, 0, 0, 0);
+   position:absolute;
+   left:102px;
+   bottom:100px;
+
+
+
+}
+
+.clicked {
+  background-position:top;
+}
+
+
+//grid home
+
+.grid--home {
+    figure {
+      position: relative;
+      float: left;
+      overflow: hidden;
+      height: auto;
+      height:350px;
+    	background: $darkerblue;
+    	text-align: center;
+      img {
+        position: relative;
+        display: block;
+        min-height: 100%;
+        max-width:350px;
+        opacity: 1;
+        -webkit-transition: opacity 0.35s,-webkit-transform 0.35s ;
+        transition: opacity 0.35s, transform 0.35s;
+        object-fit: cover;
+        _:-ms-lang(x), img {
+                      height:100%;
+                      width:100%;
+                 }
+      }
+      figcaption {
+
+      p {
+        color:white;
+        margin: 35px 0;
+        padding: 10px;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+       transition: opacity 0.35s, transform 0.5s;
+        opacity: 0;
+        transform: translate3d(0,25px,0);
+        span {
+          font-size: 1.6rem;
+        	font-weight: 800;
+        }
+
+
+@media screen\0 {
+  opacity:1;
+}
+
+      }
+
+        h2  {
+          text-transform: uppercase;
+        }
+      	padding: 2em;
+      	color: #fff;
+      	font-size: 1.25em;
+      	-webkit-backface-visibility: hidden;
+      	backface-visibility: hidden;
+        text-align: left;
+      }
+    figcaption::before,
+    figcaption::after {
+      	pointer-events: none;
+      }
+      figcaption,
+      figcaption > a {
+      	position: absolute;
+      	top: 0;
+      	left: 0;
+      	width: 100%;
+      	height: 100%;
+      }
+      figcaption > a {
+      	z-index: 1000;
+      	text-indent: 200%;
+      	white-space: nowrap;
+      	font-size: 0;
+      	opacity: 0;
+        @media screen\0 {
+          opacity:.1;
+           background: rgba(0, 0, 0, 0.1);
+        }
+      }
+      &:hover {
+        p {
+          opacity:1;
+          -webkit-transform: translate3d(0,0,0);
+        	transform: translate3d(0,0,0);
+        }
+
+        img {
+          opacity: .5;
+        }
+      }
+      }
+
+    }
+
+
+
+//disable figure

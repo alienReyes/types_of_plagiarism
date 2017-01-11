@@ -1,0 +1,96 @@
+body {
+  background-color: $md-blue-grey-50;
+}
+html {
+   background:#282828;
+}
+
+.navbar-toggler{
+  color:white!important;
+}
+
+
+
+.mainTitle {
+    color:white!important;
+    font-family: $fjalla;
+}
+.headerContent {
+    background-image: url("../images/bg_jumbo.jpg");
+    background-size: cover;
+    background-position: 0 50%;
+    margin-bottom: 0;
+    position: relative;
+    // Extra small devices (portrait phones, less than 34em)
+    // No media query since this is the default in Bootstrap
+    // Small devices (landscape phones, 34em and up)
+    @media (min-width: 34em) {
+        height: 150px;
+    }
+    // Medium devices (tablets, 48em and up)
+    @media (min-width: 48em) {
+        height: 150px;
+    }
+    // Large devices (desktops, 62em and up)
+    @media (min-width: 62em) {
+        min-height: 250px;
+    }
+    // Extra large devices (large desktops, 75em and up)
+    @media (min-width: 75em) {
+        min-height: 250px;
+    }
+    .media__main {
+        padding: 10px !important;
+    }
+}
+.header__footer {
+    position: absolute;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    height: 40px;
+}
+.navbar {
+    border-radius: 0px!important;
+}
+.bg-inverse {
+    background-color: $fbBlue;
+}
+.name-div {
+    height: 40px!important;
+}
+h4 {
+    line-height: 40px;
+}
+p {
+    font-size: 14px!important;
+}
+.profileInfo {
+    background: white;
+}
+.navbar-brand {
+    font-family: $fjalla;
+}
+.profileImage {
+    width: $profileImg;
+    height: $profileImg;
+    position: relative;
+    top: -105px;
+    left: 15px;
+}
+.mainContainer {
+}
+.vContainer {
+  background: black;
+  margin-bottom: 2rem;
+}
+
+
+.coverImg--container
+{
+  img {
+    object-fit: cover;
+    float:right;
+  }
+
+}

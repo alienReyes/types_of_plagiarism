@@ -1,0 +1,273 @@
+{
+
+    "episodeList":[
+
+      {
+        "title":"Eye See You",
+        "count":"1",
+        "description":"Domestic Stalking",
+        "image":"ds_index",
+        "episodeTgt":"episode1"
+      },
+      {
+        "title":"Death in the Family",
+        "count":"2",
+        "description":"Familicide",
+        "image":"fs_index",
+        "episodeTgt":"episode2"
+      },
+      {
+        "title":"Nowhere to Hide",
+        "count":"3",
+        "description":"School Shooter",
+        "image":"ss_index",
+        "episodeTgt":"episode3"
+      }
+    ],
+
+
+
+
+"episodes": [
+{
+  "id":"episode2",
+  "chapters": [  {
+      "id": "g1",
+      "index":"1",
+      "itemImage": "fa01",
+      "title": "Episode 1",
+      "description":"Scott Moyer is released from jail and meets with his attorney Frank.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_02_A_EN",
+      "assets":"WAL/FPSY/2016/02/WAL_FPSY2016_02_A_EN"
+  } ,
+  {
+      "id": "g2",
+      "index":"2",
+      "itemImage": "fa02",
+      "title": "Episode 2",
+      "description":"Andrea Moyer is preparing for Scott’s arrival home from jail when her friend Maya comes over for a visit.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_02_B_EN",
+      "assets":"WAL/FPSY/2016/02/WAL_FPSY2016_02_B_EN"
+  } ,
+  {
+      "id": "g3",
+      "index":"3",
+      "itemImage": "fa03",
+      "title": "Episode 3",
+      "description":"Scott discusses his work performance during a meeting with his boss Mr. Sack.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_02_C_EN",
+      "assets":"WAL/FPSY/2016/02/WAL_FPSY2016_02_C_EN"
+        },
+
+  {
+      "id": "g4",
+      "index":"4",
+      "itemImage": "fa04",
+      "title": "Episode 4",
+      "description":"Scott travels to a bar after work and to forget about his troubles.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_02_D_EN",
+      "assets":"WAL/FPSY/2016/02/WAL_FPSY2016_02_D_EN"
+        },
+
+  {
+      "id": "g4",
+      "index":"5",
+      "itemImage": "fa05",
+      "title": "Episode 5",
+      "description":"Scott and Andrea attend a party at a school where Andrea works as a teacher.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_02_E_EN",
+      "assets":"WAL/FPSY/2016/02/WAL_FPSY2016_02_E_EN"
+  },
+  {
+      "id": "g4",
+      "index":"6",
+      "itemImage": "fa06",
+      "title": "Episode 6",
+      "description":"Another evening, Scott arrives home late while Andrea is helping her two boys into their beds.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_02_F_EN",
+      "assets":"WAL/FPSY/2016/02/WAL_FPSY2016_02_F_EN"
+  },
+  {
+      "id": "g4",
+      "index":"7",
+      "itemImage": "fa07",
+      "title": "Episode 7",
+      "description":"Police are called to the Moyer home.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_02_G_EN",
+      "assets":"WAL/FPSY/2016/02/WAL_FPSY2016_02_G_EN"
+  }
+]
+},
+{
+  "id":"episode1",
+  "chapters": [  {
+      "id": "g1",
+      "index":"1",
+      "itemImage": "ds_01",
+      "title": "Episode 1",
+      "description":"Max Eldridge, a correctional forensic psychologist, is meeting with Luis Guzman at a civil commitment facility to obtain information as part of a report to be made to the Department of Corrections Parole Committee.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_01_A_EN",
+      "assets":"WAL/FPSY/2016/01/WAL_FPSY2016_01_A_EN"
+  } ,
+  {
+      "id": "g2",
+      "index":"2",
+      "itemImage": "ds_02",
+      "title": "ds_03",
+      "description":"Max Eldridge, the correctional forensic psychologist, talks with Walter Murch, a police detective and who is investigating the circumstances of a recently discovered female body.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_01_B_EN",
+      "assets":"WAL/FPSY/2016/01/WAL_FPSY2016_01_B_EN"
+  } ,
+  {
+      "id": "g3",
+      "index":"3",
+      "itemImage": "ds_03",
+      "title": "ds_03",
+      "description":"Detective Murch meets with Alice Narnell, the owner of a therapy practice that once treated Luis Guzman.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_01_C_EN",
+      "assets":"WAL/FPSY/2016/01/WAL_FPSY2016_01_C_EN"
+        },
+
+  {
+      "id": "g4",
+      "index":"4",
+      "itemImage": "ds_04",
+      "title": "Episode 4",
+      "description":"Detective Murch talks with Police Sergeant Sargent Jeff Banks who originally investigated Luis Guzman 10 years ago.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_01_D_EN",
+      "assets":"WAL/FPSY/2016/01/WAL_FPSY2016_01_D_EN"
+        },
+
+  {
+      "id": "g4",
+      "index":"5",
+      "itemImage": "ds_05",
+      "title": "Episode 5",
+      "description":"Detective Murch visits the home of Liliana Puig, who was a victim of Luis Guzman.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_01_E_EN",
+      "assets":"WAL/FPSY/2016/01/WAL_FPSY2016_01_E_EN"
+  },
+  {
+      "id": "g4",
+      "index":"6",
+      "itemImage": "ds_06",
+      "title": "Episode 6",
+      "description":"Detective Murch talks with Charles Cody, Luis Guzman’s original defense lawyer.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_01_F_EN",
+      "assets":"WAL/FPSY/2016/01/WAL_FPSY2016_01_F_EN"
+  },
+  {
+      "id": "g4",
+      "index":"7",
+      "itemImage": "ds_07",
+      "title": "Episode 7",
+      "description":"Max Eldridge, the correctional forensic psychologist, presents his findings before the Department of Corrections Parole Committee.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_01_G_EN",
+      "assets":"WAL/FPSY/2016/01/WAL_FPSY2016_01_G_EN"
+  },
+  {
+      "id": "g4",
+      "index":"8",
+      "itemImage": "ds_08",
+      "title": "Episode 8",
+      "description":"Max Eldridge again meets with Luis Guzman at the civil commitment facility.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_01_H_EN",
+      "assets":"WAL/FPSY/2016/01/WAL_FPSY2016_01_H_EN"
+  }
+]
+},
+{
+  "id":"episode3",
+  "chapters": [  {
+      "id": "g1",
+      "index":"1",
+      "itemImage": "ss01",
+      "title": "Episode 1",
+      "description":"Police officers Trish Bell and Charlie Harris arrive at the local high school to meet with Stephen Bishop, the principal.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_03_A_EN",
+      "assets":"WAL/FPSY/2016/03/WAL_FPSY2016_03_A_EN"
+  } ,
+  {
+      "id": "g2",
+      "index":"2",
+      "itemImage": "ss02",
+      "title": "Episode 2",
+      "description":"Jake Smith, the sophomore student who threatened to bring a gun to school, meets with Lynn Curtis, his juvenile probation officer.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_03_B_EN",
+      "assets":"WAL/FPSY/2016/03/WAL_FPSY2016_03_B_EN"
+  } ,
+  {
+      "id": "g3",
+      "index":"3",
+      "itemImage": "ss03",
+      "title": "Episode 3",
+      "description":"Police officers Trish Bell and Charlie Harris interview Trish, Jake Smith’s 15-year old girlfriend.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_03_C_EN",
+      "assets":"WAL/FPSY/2016/03/WAL_FPSY2016_03_C_EN"
+        },
+
+  {
+      "id": "g4",
+      "index":"4",
+      "itemImage": "ss04",
+      "title": "Episode 4",
+      "description":"Therapist Supervisor Lisa Hemmings meets with officers Bell and Harris.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_03_D_EN",
+      "assets":"WAL/FPSY/2016/03/WAL_FPSY2016_03_D_EN"
+        },
+
+  {
+      "id": "g4",
+      "index":"5",
+      "itemImage": "ss05",
+      "title": "Episode 5",
+      "description":"Stephen Bishop, the high school principal, meets with police officers Bell and Harris.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_03_E_EN",
+      "assets":"WAL/FPSY/2016/03/WAL_FPSY2016_03_E_EN"
+  },
+  {
+      "id": "g4",
+      "index":"6",
+      "itemImage": "ss06",
+      "title": "Episode 6",
+      "description":"Officers Bell and Harris visit Jake Smith at his home.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_03_F_EN",
+      "assets":"WAL/FPSY/2016/03/WAL_FPSY2016_03_F_EN"
+  },
+  {
+      "id": "g4",
+      "index":"7",
+      "itemImage": "ss07",
+      "title": "Episode 7",
+      "description":"Jake again meets with Lynn Curtis, his probation officer.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_03_G_EN",
+      "assets":"WAL/FPSY/2016/03/WAL_FPSY2016_03_G_EN"
+  },
+  {
+      "id": "g4",
+      "index":"8",
+      "itemImage": "ss08",
+      "title": "Episode 7",
+      "description":"Officer Bell talks with Lynn Curtis, Jake’s  probation officer.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_03_H_EN",
+      "assets":"WAL/FPSY/2016/03/WAL_FPSY2016_03_H_EN"
+  },
+  {
+      "id": "g4",
+      "index":"9",
+      "itemImage": "ss09",
+      "title": "Episode 7",
+      "description":"Officers Bell and Harris rendezvous at Jake’s house to talk with his father, Brent Smith. Accompanying the police officers are Lynn Curtis, Jake’s probation officer, and Mark Jenkins, Brent Smith’s parole officer.",
+      "referenceID":"WAL/FPSY/2016/WAL_FPSY2016_03_I_EN",
+      "assets":"WAL/FPSY/2016/03/WAL_FPSY2016_03_I_EN"
+  }
+]
+}
+
+]
+
+
+
+
+
+}
