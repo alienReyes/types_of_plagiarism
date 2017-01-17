@@ -1,5 +1,4 @@
 body {
-    background: $mediumgray;
     font-family: $lato;
     color: $mediumgray;
     adding-right:0px !important;
@@ -8,61 +7,7 @@ body {
 
 
 
-html,
-body {
-    background-color:lighten($fbBlue , 55%);
-    font-size: 16px;
 
-
-}
-
-
-
-#mainContainer {
- background-image: url("../images/menu-bkg.png");
- background-repeat: no-repeat;
- background-size: cover;
-  min-height: 450px;
-
-
-}
-
-
-#logo {
-  max-width: 100%;
-  text-align: left;
-  height: 100%;
-
-
-}
-
-#header {
-  background:  $liverpoolBlue;
-  color: white;
-
-
-
-  #mainTitle {
-      font-family: $lato;
-      font-weight: 100;
-      text-align: left;
-      color: white;
-      font-size: 2.5rem;
-  }
-
-}
-
-#tanscriptbody
-
-#transcriptCont
-{
-  p {
-      color: $darkblue;
-  }
-
-
-
-}
 
 
 

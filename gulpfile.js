@@ -36,7 +36,7 @@ var config = { 
 gulp.task('browserSync', function() {
   browserSync({
     server: {
-      baseDir: 'dist',
+      baseDir: 'app',
       routes: {
       '/bower_components': 'bower_components'
     }

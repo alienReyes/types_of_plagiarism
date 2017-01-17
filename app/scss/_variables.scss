@@ -22,9 +22,21 @@ $fbBlue :#3b5998;
 
 //episodes colors;
 
-$episode1C:#8d2c34;
-$episode2C:#370f3b;
+$episode1C:#212121;
+$mainColor:#738A05;
 $episode3C:#202860;
+
+
+
+
+///plagiarism--colors
+$c1:#738A05;
+$c2:#BD3613;
+$c3:#2176C7;
+$c4:#C61C6F;
+$c5:#4a148c;
+$c6:#0d47a1;
+
 
 
 /* Colors from Liverpool */
@@ -46,11 +58,10 @@ $itemWidth:200px;
 
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Lato:100,400,400i,700i');
 
 
-$lato: 'Lato', sans-serif;
-$fjalla:'Fjalla One', sans-serif;
+$lato: "lato",sans-serif;
+$gibson: "canada-type-gibson",sans-serif;
 $arvo: 'Arvo', serif;
 //scrub bd-pageheader
 $seekBarH:1.5rem;

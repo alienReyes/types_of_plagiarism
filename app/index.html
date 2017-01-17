@@ -1,54 +1,96 @@
-<!-- <!DOCTYPE html> -->
-<html id="home" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
 
-    <title>Podcasts Repository</title>
-  <script type="text/javascript">
-    var fileName="home";
-    var jsonFile="data.json"
-  </script>
-  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Lato:100,400,400i,700i" rel="stylesheet">
+    <title>Types of Plagiarism</title>
+    <script src="https://use.typekit.net/itk7cpz.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+    <script src="js/kaltura-custom.js"></script>
+    <script src="js/svg4everybody.min.js"></script>
+      <script>   svg4everybody();// run it now or whenever you are ready</script>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Lato:100,400,400i,700i" rel="stylesheet">
 
-
-
+    <link rel="stylesheet" href="css/kaltura-custom.css" />
     <!--build:css css/style.min.css-->
     <!-- bower:css -->
-    <link rel="stylesheet" href="../bower_components/fontawesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
     <!-- endbower -->
     <link rel="stylesheet" href="css/style.css">
     <!--endbuild-->
+
+    <script type="text/javascript">
+      var fileName="episodes";
+      var episodeNum="episode1"
+    </script>
 </head>
 
-<body id="home">
+<body id="episode1">
+  <nav class="navbar navbar-dark bg-inverse">
+    <h1>Types of Plagiarism</h1>
+  </nav>
 
 
 
   <div class="bd-pageheader">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
-              <h1>Forensic Psychology Case Study Podcasts </h1>
-            <br>
+            <div class="col-lg-12 episodeTitle">
+              <h2 class="videoTitle"></h2>
             </div>
+
+
+            <div class="col-md-8 offset-md-2  videoContainer">
+                <div class="videoInfo" style="">
+                </div>
+                <div class="kal-group" data-name="WAL/CBLD/0001/WAL_CBLD0001_01_A_EN" style="height:300px; width:100%;">
+                </div>
+                <!-- <p>
+                    <a id="audioDL" class="vidLinks" target="_blank" href=""><i class="fa fa-fw fa fa-download"></i>Download Audio</a>
+                    <a id="captionsDL" class="vidLinks" target="_blank" href=""><i class="fa fa-fw fa-file-text"></i>Download Captions</a>
+
+                </p> -->
+
+
+            </div>
+
           </div>
 
         </div>
       </div>
 
+<div class="container-fluid vContainer ">
 
-<br>
+
+</div>
+
+
+
+
 
 
       <div class="container mainContainer">
-        <br>
-        <div class="row grid--home" >
+        <div  id="episode1__grid" class="row grid">
       </div>
 
 <!-- end mainContainer -->
         </div>
+        <footer class="footer ">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <img src="images/one_campus_logo.png" alt="">
+              </div>
+            </div>
+
+          </div>
+        </footer>
 
 
 
@@ -63,42 +105,37 @@
 
     <!--build:js js/main.min.js -->
     <!-- bower:js -->
-    <script src="../bower_components/jquery/dist/jquery.js"></script>
-    <script src="../bower_components/tether/dist/js/tether.js"></script>
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="../bower_components/mustache.js/mustache.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/tether/dist/js/tether.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/mustache.js/mustache.js"></script>
+    <script src="bower_components/jquery.easing/js/jquery.easing.js"></script>
+    <script src="bower_components/wow/dist/wow.js"></script>
+    <script src="js/modernizer.js"></script>
     <!-- endbower -->
     <script src="js/main.js"></script>
     <!-- endbuild -->
 
 
 
-<script id="episodesTemplate" type="text/template">
-  {{#episodeList}}
-<div class="col-lg-4 col-md-6">
-  <figure class="effect-duke">
-              <img src="images/{{image}}.jpg" alt="img27"/>
-              <figcaption>
-                <h2>{{title}}</h2>
-                <p><span>{{description}} </span></p>
-                <p>Go to Episodes <i class="fa fa-arrow-right" aria-hidden="true"></i>
-  </p>
 
-                <a class="" href="{{episodeTgt}}.html"></a>
-              </figcaption>
-  </figure>
-  </div>
-    {{/episodeList}}
-</script>
+    <script id="templateBtns" type="text/template">
+        {{#chapters}}
+        <div class="col-lg-4 col-md-6">
+            <figure class="figure__enabled clickFigure" data-title={{title}}  data-assets={{assets}} data-target={{referenceID}} data-title={{title}} href="#top">
+                <div class="color-block {{color}}"></div>
+                <svg role="img" title="{{itemImage}}">
+    <use xlink:href="images/icons.svg#{{itemImage}}"/>
+</svg>
+                <!-- <img src="images/{{itemImage}}.png" alt=""> -->
 
-
-
-
-<a id="url" target="_blank"
-
-
-
-
+                <figcaption>
+                    <h2>{{title}}</span></h2>                    <blockquote>{{description}}</blockquote>
+                </figcaption>
+            </figure>
+        </div>
+        {{/chapters}}
+    </script>
 
 
 
